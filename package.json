@@ -1,0 +1,26 @@
+{
+  "name": "clicks",
+  "version": "1.0.0",
+  "description": "Clicks",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "keywords": [
+    "Clicks"
+  ],
+  "author": "Vivek Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.4",
+    "jest": "^27.4.4"
+  }
+}
